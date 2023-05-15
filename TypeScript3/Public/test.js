@@ -19,3 +19,5 @@ mixed.push("Luigi");
 mixed.push(12345);
 mixed.push(true);
 console.log(mixed);
+let ninja;
+ninja = { name: 10, age: 'Liu Kang' };
