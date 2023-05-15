@@ -27,4 +27,5 @@ let ninjaTwo:{
 ninjaTwo={name:'Ade',
           age:10,
           beltColour:'black'};
+console.log(ninjaTwo);
 
