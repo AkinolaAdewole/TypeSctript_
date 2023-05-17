@@ -10,3 +10,11 @@ console.log(anchor.href);
 if (anchor) {
     console.log(anchor.href);
 }
+// Type casting
+const form = document.querySelector('.nav-item-form');
+console.log(form.children);
+// collect input (select field in a form)
+const type = document.querySelector('#type');
+const tofrom = document.querySelector('#tofrom');
+const details = document.querySelector('#details');
+const amount = document.querySelector('#amount');
