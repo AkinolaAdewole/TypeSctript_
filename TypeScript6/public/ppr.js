@@ -22,7 +22,7 @@
 //       return   `${this.client} owes ${this.amount} for ${this.details}`
 //     }
 // }
-import { Invoice } from './ppr/class.js';
+import { Invoice } from './ppr/invoice.js';
 const invOne = new Invoice('Mario', 'works on Mario website', 300);
 const invTwo = new Invoice('Luigi', 'works on Digital Art', 200);
 console.log(invOne, invTwo);

@@ -1,6 +1,6 @@
-
+import { hasFormatter } from "../interfaces/hasFormatter.js";
 //Module
-export class Invoice{
+export class Invoice implements hasFormatter{
    
     // readonly client:string;
     // private details:string;
