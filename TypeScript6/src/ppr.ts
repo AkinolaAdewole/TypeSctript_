@@ -4,33 +4,35 @@
 // Private allows to read and change inside the class.
 // readOnly allows to read only both inside and outside the class
 
-class Invoice{
+// class Invoice{
    
-    // readonly client:string;
-    // private details:string;
-    // public amount:number;
+//     // readonly client:string;
+//     // private details:string;
+//     // public amount:number;
   
-    // constructor(c:string,d:string, a:number){
-    //     this.client=c;
-    //     this.details=d;
-    //     this.amount=a;
-    // }
+//     // constructor(c:string,d:string, a:number){
+//     //     this.client=c;
+//     //     this.details=d;
+//     //     this.amount=a;
+//     // }
 
-    // Example two
+//     // Example two
     
-    constructor(
-        readonly client:string,
-        private details:string,
-        public amount:number
-    ){}
+//     constructor(
+//         readonly client:string,
+//         private details:string,
+//         public amount:number
+//     ){}
 
 
 
-    format(){
-      return   `${this.client} owes ${this.amount} for ${this.details}`
-    }
-}
+//     format(){
+//       return   `${this.client} owes ${this.amount} for ${this.details}`
+//     }
+// }
 
+
+import { Invoice } from './ppr/class.js';
 const invOne= new  Invoice('Mario', 'works on Mario website', 300);
 const invTwo= new Invoice('Luigi', 'works on Digital Art', 200);
 console.log(invOne,invTwo);
