@@ -1,28 +1,10 @@
-// Public, Private and ReadOnly
-// In Classes, all properties are public by default
-// Access Modifiers are: Public, Private and ReadOnly
-// Private allows to read and change inside the class.
-// readOnly allows to read only both inside and outside the class
-// class Invoice{
-//     // readonly client:string;
-//     // private details:string;
-//     // public amount:number;
-//     // constructor(c:string,d:string, a:number){
-//     //     this.client=c;
-//     //     this.details=d;
-//     //     this.amount=a;
-//     // }
-//     // Example two
-//     constructor(
-//         readonly client:string,
-//         private details:string,
-//         public amount:number
-//     ){}
-//     format(){
-//       return   `${this.client} owes ${this.amount} for ${this.details}`
-//     }
-// }
 import { Invoice } from './ppr/invoice.js';
+import { Payment } from './ppr/payment.js';
+let docOne;
+let docTwo;
+let docs = [];
+docOne = new Invoice('luigi', 'web design', 300);
+docTwo = new Payment('mario', 'UI/UX design', 200);
 const invOne = new Invoice('Mario', 'works on Mario website', 300);
 const invTwo = new Invoice('Luigi', 'works on Digital Art', 200);
 console.log(invOne, invTwo);

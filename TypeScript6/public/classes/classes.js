@@ -1,3 +1,8 @@
+// Public, Private and ReadOnly
+// In Classes, all properties are public by default
+// Access Modifiers are: Public, Private and ReadOnly
+// Private allows to read and change inside the class.
+// readOnly allows to read only both inside and outside the class
 export class Invoice {
     constructor(c, d, a) {
         this.client = c;

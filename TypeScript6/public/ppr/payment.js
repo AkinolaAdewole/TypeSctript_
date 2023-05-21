@@ -1,11 +1,11 @@
 //Module
-export class Invoice {
-    constructor(c, d, a) {
-        this.client = c;
-        this.details = d;
-        this.amount = a;
+export class Payment {
+    constructor(recipient, details, amount) {
+        this.recipient = recipient;
+        this.details = details;
+        this.amount = amount;
     }
     format() {
-        return `${this.client} owes ${this.amount} for ${this.details}`;
+        return `${this.recipient} owes ${this.amount} for ${this.details}`;
     }
 }
