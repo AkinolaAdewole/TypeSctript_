@@ -22,6 +22,8 @@ const type = document.querySelector('#type');
 const tofrom = document.querySelector('#tofrom');
 const details = document.querySelector('#details');
 const amount = document.querySelector('#amount');
+// list template instance
+const ul = document.querySelector('ul');
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     let doc;
